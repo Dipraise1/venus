@@ -1,0 +1,57 @@
+/* App.css */
+body {
+  background-color: black;
+  background-image: url("/images/13.png");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: rgba(255, 255, 255, 0.87);
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  font-size: 1.2rem;
+  line-height: 1.5;
+}
+.app-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  color: rgba(255, 255, 255, 0.87);
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  font-size: 1.2rem;
+  line-height: 1.5;
+  padding: 2rem;
+  box-sizing: border-box;
+}
+.download-button {
+  border-radius: 8px;
+  border: 1px solid transparent;
+  padding: 0.8em 1.6em;
+  font-size: 1.2em;
+  font-weight: 500;
+  font-family: inherit;
+  background-color: gold;
+  cursor: pointer;
+  transition: border-color 0.25s;
+  color: #646cff;
+}
+.animated-image-container {
+  width: 100px; /* Adjust size as needed */
+  height: 100px; /* Adjust size as needed */
+  border: 1px solid white ;
+  overflow: hidden;
+  position: relative;
+  margin-top: 20px; /* Add space at the top */
+  border-radius: 10px; /* Make it curvy */
+}
+
+.animated-image {
+  width: 100%;
+  height: 100%;
+  transition: transform 0.3s ease-in-out;
+  border-radius: 10px; /* Inherit the border-radius from the container */
+}
+
